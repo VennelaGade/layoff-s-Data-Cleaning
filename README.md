@@ -1,5 +1,7 @@
 Layoffs Data Analysis Project Using SQL
+
 Objective: Cleaned and analyzed a layoffs dataset to identify trends and insights regarding workforce reductions across various companies.
+
 
 Key Steps:
 
@@ -15,6 +17,8 @@ Handled missing values: Set blank industry fields to NULL and populated them fro
 
 Deleted non-informative rows: Executed DELETE FROM layoffs_staging2 WHERE total_laid_off IS NULL AND percentage_laid_off IS NULL; to enhance data quality.
 
+
+
 Exploratory Data Analysis (EDA):
 
 Initial exploration: Used SELECT * FROM layoffs_staging2; to understand dataset structure.
@@ -29,5 +33,7 @@ Examined by industry: Utilized GROUP BY industry to identify trends across diffe
 
 Ranked companies: Employed CTEs and DENSE_RANK() to rank companies by total layoffs per year.
 
-Outcome: Successfully improved data quality and identified significant trends and patterns in layoffs, providing valuable insights for future workforce planning and strategic decision-making.
+
+Outcome: 
+Successfully improved data quality and identified significant trends and patterns in layoffs, providing valuable insights for future workforce planning and strategic decision-making.
 
